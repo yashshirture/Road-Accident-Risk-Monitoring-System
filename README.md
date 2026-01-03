@@ -29,8 +29,3 @@ This project analyzes road accident data to identify high-risk factors, accident
 Yash Shirture  
 Data Analyst
 
-🔗 LinkedIn: https://www.linkedin.com/in/yash-shirture-635153202/
-
-
-## 📁 Project Files
-
