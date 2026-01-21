@@ -1,4 +1,4 @@
-# 🚦 Road Accident Risk Monitoring System (Excel + Power BI)
+# 🚦 Road Accident Risk Monitoring System (Excel)
 
 ## 📊 Dashboard Preview
 
@@ -57,4 +57,4 @@ The goal is **trustworthy insight**.
 
 ## 🧰 Tools Used  
 - **MS Excel** – Cleaning, Mapping, Validation, Reconciliation  
-- **Power BI** – Data Modeling, Relationships, Risk Dashboards  
+ 
