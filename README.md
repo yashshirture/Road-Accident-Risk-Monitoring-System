@@ -1,31 +1,55 @@
-# 🚧 Road Accident Risk Analysis Dashboard
+# 🚦 Road Accident Risk Monitoring System (Excel + Power BI)
 
-## 📌 Project Overview
-This project analyzes road accident data to identify high-risk factors, accident trends, and casualty patterns using an interactive Excel dashboard.
+## 🧩 Problem  
+Accident data came from multiple sources with missing fields, inconsistent location names, and irregular date formats.  
+Using this data directly would distort risk patterns and lead to incorrect safety insights.
 
-## 🚨 Risk Drivers & Safety Patterns
-- Serious and fatal casualties are disproportionately higher on single carriageways.
-- Urban areas account for the majority of accidents, driven by higher traffic density.
-- Wet road surfaces significantly increase accident severity compared to dry conditions.
-- Poor lighting conditions show elevated fatality rates despite lower accident volumes.
-- Accident frequency peaks during specific months, indicating seasonal risk patterns.
+## 🎯 Objective  
+Build a reliable, repeatable system that converts messy accident records into trustworthy risk indicators for analysis and reporting.
 
-## 🛠 Tools Used
-- Microsoft Excel – Interactive dashboard & analysis
-- Data Cleaning & Transformation
-- Statistical Analysis
-- Data Visualization
+## 🚨 Data Issues Identified  
+- Missing severity and location fields  
+- Inconsistent region and road-type names  
+- Duplicate accident records  
+- Date and time format mismatches  
+- Category drift across datasets  
 
-## 📷 Dashboard Preview
-![Dashboard](dashboard.png)
+## 🛠️ Approach  
+1. Separated raw data from clean processing layers  
+2. Standardized location, road type, and severity fields  
+3. Built validation checks for:  
+   - Missing critical fields  
+   - Duplicate accident IDs  
+   - Category inconsistencies  
+4. Created structured Excel summaries for risk review  
+5. Modeled clean data in Power BI  
+6. Designed dashboards to surface high-risk zones and trends  
 
-## 🔍 Analytical Value
-- Helps identify high-risk road conditions
-- Supports traffic safety and prevention strategies
-- Enables da-backed policy recommendations
-- Improves accident risk awareness
+## 🛡️ Validation & Control Logic  
+- Record-count reconciliation between raw and clean layers  
+- Null-value flags for critical safety fields  
+- Category-mapping checks  
+- Sanity checks on daily and regional totals  
 
-## 👤 Author
-Yash Shirture  
-Data Analyst | Excel • SQL • Power BI
+Any failure blocks reporting.
 
+## 📊 Output  
+- Clean, standardized accident dataset  
+- Risk indicators by region, time, and road type  
+- Dashboard for trend and hotspot analysis  
+
+## 💡 Why This Matters  
+Safety analysis is only as good as the data behind it.  
+This system is designed to:
+
+- Expect broken inputs  
+- Surface hidden inconsistencies  
+- Prevent misleading patterns  
+- Protect decision-makers from false risk signals  
+
+The goal is not visualization.  
+The goal is **trustworthy insight**.
+
+## 🧰 Tools Used  
+- **MS Excel** – Cleaning, Mapping, Validation, Reconciliation  
+- **Power BI** – Data Modeling, Relationships, Risk Dashboards  
