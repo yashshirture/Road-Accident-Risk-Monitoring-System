@@ -1,5 +1,10 @@
 # 🚦 Road Accident Risk Monitoring System (Excel + Power BI)
 
+## 📊 Dashboard Preview
+
+![RoadAccident Dashboard](./dashboard.png)
+
+
 ## 🧩 Problem  
 Accident data came from multiple sources with missing fields, inconsistent location names, and irregular date formats.  
 Using this data directly would distort risk patterns and lead to incorrect safety insights.
