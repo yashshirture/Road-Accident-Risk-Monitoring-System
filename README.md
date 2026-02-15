@@ -57,4 +57,8 @@ The goal is **trustworthy insight**.
 
 ## 🧰 Tools Used  
 - **MS Excel** – Cleaning, Mapping, Validation, Reconciliation  
- 
+
+## 📊 Excel Dashboard File
+
+👉 [Download the Excel File](https://docs.google.com/spreadsheets/d/10xNZcWUdc0_GiRs-bd4k3RbXbz330f0k/edit?usp=drive_link&ouid=108534964012962325653&rtpof=true&sd=true)
+
